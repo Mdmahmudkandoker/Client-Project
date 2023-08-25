@@ -1,0 +1,96 @@
+/* 
+Footer color #1A0285
+#1F727E
+#359CBC
+#47D0BE
+#00D7A5
+
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;    
+}
+
+/* navbar section style */
+
+.fill-color{
+    background-color: #1A0285;
+    height: 30px;
+}
+
+.nav-container{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 50px;
+
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+}
+
+.menu-items{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 140px;
+}
+
+.menu-items a{
+    text-decoration: none;
+}
+
+
+
+/* Main section style starts */
+
+.main-container-section{
+    margin: 0 auto;
+    background-color: #F7F7F6;
+   
+    /* opacity: 32%;  */
+}
+
+.main-container{
+    margin: 0 auto;
+    display: flex;
+}
+
+
+/* footer style starts */
+
+.footer-container{
+    background-color: #1A0285;
+    padding: 100px;
+}
+
+.footer-first-section{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.text-whit{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.footer-logo{
+    width: 50%;
+    height: 50%;
+    margin-left: 75px;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: space-between;
+}
