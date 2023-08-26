@@ -1,36 +1,43 @@
 /* 
-Footer color #1A0285
-#1F727E
-#359CBC
-#47D0BE
-#00D7A5
+Footer color - rgb(26, 1, 132);
+rgb(31, 114, 125)
+rgb(53, 156, 187)
+rgb(72, 209, 191)
+rgb(0, 215, 165)
+more button border color #003399
 
 */
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
     width: 80%;
-    margin: 0 auto;    
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;  
 }
 
-/* navbar section style */
+/* google fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Raleway&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* navbar section style starts */
 
 .fill-color{
-    background-color: #1A0285;
-    height: 30px;
+    background-color: #1A0285; 
+    height: 30px; 
 }
 
 .nav-container{
     display: flex;
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;    
 
 }
 .logo-container{
-    display: flex;
+    display: flex;           
     width: 50%;
 }
 
@@ -42,20 +49,29 @@ body{
     list-style: none;
     margin-right: 140px;
 }
+.menu-items .gradient-text{
+    background: linear-gradient(45deg, #084896, #8dc63f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+}
 
 .menu-items a{
     text-decoration: none;
+    color: gray;
+    font-size: 25px;
 }
 
+/* navbar section style ends */
 
-
+   
 /* Main section style starts */
 
 .main-container-section{
     margin: 0 auto;
+    padding: 0 0 0 150px;
     background-color: #F7F7F6;
-   
-    /* opacity: 32%;  */
 }
 
 .main-container{
@@ -63,34 +79,137 @@ body{
     display: flex;
 }
 
+.color{
+    color: rgb(31, 114, 125); 
+    font-weight: bold;
+}
+.color-about{
+    color: gray;
+    opacity: 60%;
+    font-weight: 100;
+}
+.main-container-left-part{
+    width: 50%;
+    margin-top: 130px;
+    margin-right: 100px;
+}
 
-/* footer style starts */
+.main-container-left-part h1{   
+    font-size: 65px;
+    /* margin-top: 100px; */
+}
+
+.main-container-left-part h6{
+    color: rgb(26, 1, 132);
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 40px;             
+    margin-bottom: 40px;
+}
+
+.main-container-left-part p{
+    font-size: 20px;
+}
+.image-part{   
+    width: 50%;
+}
+
+.banner-image{             
+    width: 100%;
+}
+
+#gap{
+    margin: 55px 0 55px 0;
+}     
+
+/* leadership section starts */
+.leadership-container-main{
+    color: rgb(53, 156, 187);
+    margin-top: -95px;
+}
+
+.text-margin-top{
+    margin-bottom: 15px;
+}
+
+.leadership-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 50px 0;
+}
+
+.leadership-section-card h4{
+    color: rgb(53, 156, 187);
+    font-size: 25px;
+    font-weight: bolder
+}
+
+.leadership-section-card p{
+    color:gray;
+    font-size: 17px;
+    font-weight: bolder;
+    
+}
+
+.leader-image{
+    width: 360px;
+    height: 350px;
+}
+
+.more-btn{
+    float: right;
+    padding:  10px 30px 10px 30px;
+    border: 1px solid #b6f376;
+    border-radius: 25px;
+    background-color: #F7F7F6;
+    font-size: 15px;
+    color: gray;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.btn-left-margin{
+    margin-right: 20px
+}
+
+/* leadership section Ends */
+
+
+/* footer style starts */  
+
+.Vector-image2{
+    width: 100%;
+}
 
 .footer-container{
     background-color: #1A0285;
     padding: 100px;
 }
 
-.footer-first-section{
+.footer-first-section{   
     display: flex;
-    gap: 20px;
+    /* gap: 20px; */
     justify-content: space-between;
     margin-bottom: 25px;
 }
+.margin-top-n{
+    margin-top: -30px;
+}
 
-.text-whit{
-    text-decoration: none;
+.margin-top{
+    margin-top: 40px;
+}
+
+
+.text-white{
+    text-decoration: none; 
     color: #fff;
-    font-size: 12px;
+    font-size: 17px;  
 }
 
-.footer-logo{
-    width: 50%;
-    height: 50%;
-    margin-left: 75px;
-}
 
 .footer-icon{
     display: flex;
     justify-content: space-between;
+    /* margin-top: 50px; */
 }
