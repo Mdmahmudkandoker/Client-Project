@@ -17,6 +17,7 @@ more button border color #003399
 body{
     width: 80%;
     margin: 0 auto;
+    /* margin: 0 40px 0 40px; */
     font-family: 'Roboto', sans-serif;  
 }
 
@@ -33,7 +34,7 @@ body{
 .nav-container{
     display: flex;
     margin-top: 15px;
-    margin-bottom: 50px;    
+    margin-bottom: 20px;
 
 }
 .logo-container{
@@ -70,7 +71,7 @@ body{
 
 .main-container-section{
     margin: 0 auto;
-    padding: 0 0 0 150px;
+    padding: 0 0 0 100px;
     background-color: #F7F7F6;
 }
 
@@ -90,7 +91,8 @@ body{
 }
 .main-container-left-part{
     width: 50%;
-    margin-top: 130px;
+    /* margin-top: 130px; */
+    margin: auto;
     margin-right: 100px;
 }
 
@@ -119,17 +121,19 @@ body{
 }
 
 #gap{
-    margin: 55px 0 55px 0;
+    margin: 15px 0 15px 0;
 }     
 
 /* leadership section starts */
 .leadership-container-main{
     color: rgb(53, 156, 187);
-    margin-top: -95px;
+    margin-top: -125px;
 }
 
 .text-margin-top{
     margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 .leadership-container{
@@ -212,4 +216,27 @@ body{
     display: flex;
     justify-content: space-between;
     /* margin-top: 50px; */
+}
+
+/* Media query */
+
+@media only screen and (max-width: 1440px) {
+    body {
+      width: 1440px;
+      margin: 0 40px 0 40px; 
+  }
+}
+@media only screen and (max-width: 1140px) {
+    body {
+      width: 100%;
+      margin: 0 40px 0 40px; 
+  }
+  .main-container-left-part{
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.main-container-left-part h6{
+    margin-top: 10px;             
+    margin-bottom: 10px;
+}
 }
